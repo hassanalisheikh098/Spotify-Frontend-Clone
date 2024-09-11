@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav>
+            <ul>
+                <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="songlist">
+                <h1>Best of NCS No copyright </h1>
+                <div class="songitembox">
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span>1:24</span><i id="1" class="songitemplay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span>1:24</span><i id="2" class="songitemplay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span>1:24</span><i id="3" class="songitemplay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span>1:24</span><i id="4" class="songitemplay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span>1:24</span><i id="5" class="far songitemplay fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            </div>
+            <div class="banner"></div>
+        </div>
+
+        <div class="bottom">
+            <input type="range" id="progressbar" value="0" min="0" max="100">
+            <div class="icons">
+                <i class="fa-solid fa-2x fa-backward-step" id="backward"></i>
+                <i class="fa-solid fa-2x fa-play" id="masterplay"></i>
+                <i class="fa-solid fa-2x fa-forward-step" id="forward"></i>
+            </div>
+            <div class="songinfo">
+                <img src="playing.gif" alt="1" width="42px" id="gif"><span id="songtitlename">Warriyo - Mortal</span>
+            </div>
+        </div>
+
+        <script src ="script.js"></script>
+        <script src="https://kit.fontawesome.com/0cb5e3d02f.js" crossorigin="anonymous"></script>
+</body>
+</html>

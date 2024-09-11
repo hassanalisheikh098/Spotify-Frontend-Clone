@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu' , sans-serif;
+    color: aliceblue;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: black;
+    height: 65px;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color :aliceblue;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url(bg.jpg) ;
+    background-size: contain;
+    padding: 34px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 100px;
+    color: aliceblue;
+    background-color: black;
+    bottom: 0;
+}
+
+#progressbar{
+    width: 80vw;
+}
+
+.icons{
+    margin-top: 10px;
+    display: flex;
+}
+
+.icons i{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.songitem img{
+    width: 40px;
+    border-radius: 34px;
+}
+
+.songitem{
+    display: flex;
+    height : 50px;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 0 12px;
+}
+
+.songitem i{
+    margin : 0 15px;
+}
+
+.songitembox{
+    margin-top: 30px;
+}
+
+.songinfo{
+    position: absolute;
+    left : 19vh;
+    margin-top: 30px;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    padding-right: 15px;
+}
+
+.songitemplay{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+        .songitem{
+            
+           font-size: 13px;
+        }
+
+        #songtitlename{
+            display: none;
+        }
+
+        #gif{
+            display: none;
+        }
+
+    }
